@@ -1,4 +1,4 @@
-package com.zj.multimodule.model;
+package com.zj.multimodule.entity;
 
 import androidx.annotation.NonNull;
 
