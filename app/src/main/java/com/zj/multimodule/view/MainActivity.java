@@ -27,6 +27,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+/**
+ * @author zhangjian
+ */
 public class MainActivity extends AppCompatActivity implements MainContract.View {
     @Inject
     public PicPresenter presenter;

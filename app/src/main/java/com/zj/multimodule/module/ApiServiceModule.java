@@ -2,12 +2,13 @@ package com.zj.multimodule.module;
 
 import com.zj.multimodule.api.ApiRetrofit;
 import com.zj.multimodule.api.ApiService;
-
 import javax.inject.Singleton;
-
 import dagger.Module;
 import dagger.Provides;
 
+/**
+ * @author zhangjian
+ */
 @Module
 public class ApiServiceModule {
     @Provides

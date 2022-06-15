@@ -4,9 +4,9 @@ import android.annotation.SuppressLint;
 import android.app.Application;
 import android.content.Context;
 
-import com.zj.multimodule.api.ApiFactory;
-import com.zj.multimodule.api.ApiService;
-
+/**
+ * @author zhangjian
+ */
 public class MyApplication extends Application {
     @SuppressLint("StaticFieldLeak")
     private static Context context;

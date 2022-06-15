@@ -2,11 +2,10 @@ package com.zj.multimodule.presenter;
 
 import com.zj.multimodule.component.DaggerPicPresenterComponent;
 import com.zj.multimodule.contract.MainContract;
-
 import java.io.FileNotFoundException;
-
-import javax.inject.Inject;
-
+/**
+ * @author zhangjian
+ */
 public class PicPresenter extends BasePresenter {
     public PicPresenter(){
         DaggerPicPresenterComponent.builder().build().inject(this);

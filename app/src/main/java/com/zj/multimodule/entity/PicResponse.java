@@ -2,14 +2,17 @@ package com.zj.multimodule.entity;
 
 import androidx.annotation.NonNull;
 
+/**
+ * @author zhangjian
+ */
 public class PicResponse {
     private String code;
-    private String imgurl;
+    private String imgUrl;
     private String msg;
 
-    public PicResponse(String code, String imgurl, String msg) {
+    public PicResponse(String code, String imgUrl, String msg) {
         this.code = code;
-        this.imgurl = imgurl;
+        this.imgUrl = imgUrl;
         this.msg = msg;
     }
 
@@ -21,12 +24,12 @@ public class PicResponse {
         this.code = code;
     }
 
-    public String getImgurl() {
-        return imgurl;
+    public String getImgUrl() {
+        return imgUrl;
     }
 
-    public void setImgurl(String imgurl) {
-        this.imgurl = imgurl;
+    public void setImgUrl(String imgurl) {
+        this.imgUrl = imgurl;
     }
 
     public String getMsg() {
@@ -42,7 +45,7 @@ public class PicResponse {
     public String toString() {
         return "PicResponse{" +
                 "code='" + code + '\'' +
-                ", imgurl='" + imgurl + '\'' +
+                ", imgUrl='" + imgUrl + '\'' +
                 ", msg='" + msg + '\'' +
                 '}';
     }

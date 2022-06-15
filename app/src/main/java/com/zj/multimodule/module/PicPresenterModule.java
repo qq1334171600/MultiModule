@@ -5,6 +5,9 @@ import com.zj.multimodule.presenter.PicPresenter;
 import dagger.Module;
 import dagger.Provides;
 
+/**
+ * @author zhangjian
+ */
 @Module
 public class PicPresenterModule {
     @Provides
